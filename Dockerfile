@@ -18,6 +18,4 @@ RUN set -xe \
 
 COPY sc_serv.conf .
 
-EXPOSE 8000 8001
-
 CMD ["./sc_serv", "sc_serv.conf"]
